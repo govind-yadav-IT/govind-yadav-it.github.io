@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Govind Yadav | Cloud, Systems & AI Infrastructure</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0b0b0b;
+            color: #e8e8e8;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        nav {
+            padding: 25px 0;
+            border-bottom: 1px solid #222;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+            color: #aaa;
+        }
+
+        nav ul a:hover {
+            color: white;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero p:first-child {
+            color: #888;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: clamp(45px, 8vw, 80px);
+            line-height: 1.05;
+            margin-bottom: 25px;
+        }
+
+        .hero h2 {
+            font-size: 25px;
+            font-weight: normal;
+            color: #aaa;
+            margin-bottom: 25px;
+        }
+
+        .hero-description {
+            max-width: 700px;
+            color: #999;
+            font-size: 18px;
+        }
+
+        .buttons {
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            padding: 12px 20px;
+            border: 1px solid #444;
+            border-radius: 6px;
+            transition: 0.2s;
+        }
+
+        .button:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        section {
+            padding: 100px 0;
+            border-top: 1px solid #1f1f1f;
+        }
+
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+
+        .about-text {
+            max-width: 800px;
+            color: #aaa;
+            font-size: 17px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            border: 1px solid #333;
+            padding: 10px 16px;
+            border-radius: 5px;
+            color: #bbb;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .project {
+            border: 1px solid #292929;
+            padding: 25px;
+            border-radius: 8px;
+            transition: 0.2s;
+        }
+
+        .project:hover {
+            border-color: #555;
+        }
+
+        .project h3 {
+            margin-bottom: 12px;
+            font-size: 21px;
+        }
+
+        .project p {
+            color: #999;
+            margin-bottom: 18px;
+        }
+
+        .project-tech {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 18px;
+        }
+
+        .project-link {
+            color: #ddd;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        .contact {
+            color: #aaa;
+            max-width: 700px;
+        }
+
+        footer {
+            border-top: 1px solid #222;
+            padding: 30px 0;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 700px) {
+            nav ul {
+                display: none;
+            }
+
+            .projects {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 70px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">Govind Yadav</div>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <section class="hero">
+            <div class="container hero-content">
+
+                <p>BSc IT Student</p>
+
+                <h1>Govind Yadav</h1>
+
+                <h2>Cloud, Systems & AI Infrastructure</h2>
+
+                <p class="hero-description">
+                    Building practical systems with cloud, automation and
+                    infrastructure technologies, while developing toward
+                    AI systems and inference engineering.
+                </p>
+
+                <div class="buttons">
+                    <a class="button" href="#projects">View Projects</a>
+                    <a class="button" href="https://github.com/govind-yadav-IT" target="_blank">
+                        GitHub
+                    </a>
+                    <a class="button" href="https://www.linkedin.com/in/govind-yadav-IT/" target="_blank">
+                        LinkedIn
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="about">
+            <div class="container">
+
+                <h2 class="section-title">About</h2>
+
+                <p class="about-text">
+                    I am a BSc IT student focused on developing strong
+                    foundations in cloud infrastructure, systems and
+                    software engineering.
+                    <br><br>
+                    I enjoy building practical projects involving Linux,
+                    Docker, AWS, Terraform and automation.
+                    My long-term direction is toward AI Systems,
+                    AI Infrastructure and inference engineering.
+                </p>
+
+            </div>
+        </section>
+
+
+        <section id="skills">
+            <div class="container">
+
+                <h2 class="section-title">Technical Focus</h2>
+
+                <div class="skills">
+                    <span class="skill">Python</span>
+                    <span class="skill">Linux</span>
+                    <span class="skill">Git & GitHub</span>
+                    <span class="skill">Docker</span>
+                    <span class="skill">Docker Compose</span>
+                    <span class="skill">AWS</span>
+                    <span class="skill">Terraform</span>
+                    <span class="skill">GitHub Actions</span>
+                    <span class="skill">Bash</span>
+                    <span class="skill">Nginx</span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="projects">
+            <div class="container">
+
+                <h2 class="section-title">Projects</h2>
+
+                <div class="projects">
+
+                    <div class="project">
+                        <h3>Infrastructure Delivery Platform</h3>
+
+                        <p>
+                            End-to-end infrastructure delivery platform using
+                            Terraform, AWS EC2, Docker, Nginx and GitHub Actions.
+                        </p>
+
+                        <div class="project-tech">
+                            Terraform · AWS · Docker · GitHub Actions · Nginx
+                        </div>
+
+                        <a class="project-link"
+                           href="https://github.com/govind-yadav-IT/Infrastructure-Delivery-Platform"
+                           target="_blank">
+                            View on GitHub →
+                        </a>
+                    </div>
+
+
+                    <div class="project">
+                        <h3>Terraform Infrastructure as Code</h3>
+
+                        <p>
+                            Automated AWS infrastructure provisioning using
+                            Terraform, including EC2, security groups,
+                            variables, outputs and remote state.
+                        </p>
+
+                        <div class="project-tech">
+                            Terraform · AWS · EC2 · S3
+                        </div>
+
+                        <a class="project-link"
+                           href="https://github.com/govind-yadav-IT/terraform-projects"
+                           target="_blank">
+                            View on GitHub →
+                        </a>
+                    </div>
+
+
+                    <div class="project">
+                        <h3>Linux Automation & Monitoring Toolkit</h3>
+
+                        <p>
+                            Bash-based toolkit for system information,
+                            resource monitoring, log analysis and
+                            threshold-based alerts.
+                        </p>
+
+                        <div class="project-tech">
+                            Linux · Bash · Shell Automation · Monitoring
+                        </div>
+
+                        <a class="project-link"
+                           href="https://github.com/govind-yadav-IT/linux-scripts"
+                           target="_blank">
+                            View on GitHub →
+                        </a>
+                    </div>
+
+
+                    <div class="project">
+                        <h3>Multi-Container Docker Application</h3>
+
+                        <p>
+                            Containerized application using Docker Compose,
+                            Nginx, volumes, restart policies and system
+                            health monitoring.
+                        </p>
+
+                        <div class="project-tech">
+                            Docker · Docker Compose · Nginx
+                        </div>
+
+                        <a class="project-link"
+                           href="https://github.com/govind-yadav-IT/compose-project"
+                           target="_blank">
+                            View on GitHub →
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="container">
+
+                <h2 class="section-title">Contact</h2>
+
+                <p class="contact">
+                    Interested in technology, infrastructure and AI systems?
+                    Feel free to connect with me on GitHub or LinkedIn.
+                </p>
+
+                <div class="buttons">
+                    <a class="button"
+                       href="https://github.com/govind-yadav-IT"
+                       target="_blank">
+                        GitHub
+                    </a>
+
+                    <a class="button"
+                       href="https://www.linkedin.com/in/govind-yadav-IT/"
+                       target="_blank">
+                        LinkedIn
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="container">
+            © 2026 Govind Yadav
+        </div>
+    </footer>
+
+</body>
+</html>
